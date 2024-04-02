@@ -126,6 +126,7 @@ every available hash and then click the calculate button. The hashes should matc
 ![10 Sha512 ryan exe](https://github.com/Lantern76/Hashing-Lab/assets/119342094/03375fff-47af-4156-9629-e59443e6a628)
 
 
+### Congrats on completing a Entry Hashing home lab! In the field of Cybersecurity Hashes will be seen almost everywhere for a variety of uses. But now you will have a basic understanding of how Hashes are calculated and be familiar with some of the more basic ones :)  
 
 
 
