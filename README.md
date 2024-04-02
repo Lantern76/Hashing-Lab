@@ -80,9 +80,64 @@ every available hash and then click the calculate button. The hashes should matc
 
 ### Tools Used
 
+- Mate Terminal for utilizing the tools and interacting with the Linux system. 
+    - The command line. or terminal, will play a vital role in the cybersecurity career field and I recomend those unfamiliar with it use their Linux VM to play around with and get used to some of the more common commands such as ls and cp.
+- Command Line tools including ls, md5sum, cp, sha1sum, sha256sum, sha512sum.
+
 ### Skills: Linux System
 
 
+### Warning this side of the Project will be done as a root user 
 
+1. Open terminal. Can be done by Ctrl + Alt + T, or by simply using the GUI. It is usually found under the applications tab but varies depending on Linux Distro version.
+   
+![HachCalc](https://github.com/Lantern76/Hashing-Lab/assets/119342094/a77546ee-33a2-4e79-8d1a-8a7e835edcd8)
 
+2. Type the following command to switch into the directory on Kail Linux that has Windows executables, "cd /usr/share/windows-binaries"
   
+![6 Root user](https://github.com/Lantern76/Hashing-Lab/assets/119342094/bdde1ded-4860-4ee4-9938-4144b1c21132)
+
+3. Type the following command to view the files and folders in the directory, "ls -la"
+
+![7 ls all](https://github.com/Lantern76/Hashing-Lab/assets/119342094/5c3cfe0c-508c-4a69-b50c-aabad435aafc)
+
+4. Type the following command to get the MD5 hash of nc.exe, "md5sum nc.exe"
+
+![8 md5sum](https://github.com/Lantern76/Hashing-Lab/assets/119342094/d2e7a201-51dd-46cf-a10d-b8b3fa7b7b9a)
+
+5. Type the following command to copy nc.exe to yourname.exe (replace yourname with your first name.), "cp nc.exe yourname.exe"
+
+6. Type the following command to navigate to the webserver directory, "ls -la". Find the newly named file under yourname.exe.
+
+7. Type the following command to get the md5 hash of the yourname.exe file, which is actually nc.exe, "md5sum yourname.exe"
+
+![6 md5sum ryan exe](https://github.com/Lantern76/Hashing-Lab/assets/119342094/814b3c7a-77ba-4bba-886b-5acfb17adca5)
+
+8. Type the following command to get the sha1sum of the yourname.exe file, which is actually nc.exe, "sha1sum yourname.txt"
+
+![7 Sha1sum ryan exe](https://github.com/Lantern76/Hashing-Lab/assets/119342094/2ef993d5-232f-4523-97e5-2ae44d989032)
+
+9. Type the following command to get the sha256sum of the yourname.exe file, which is actually nc.exe, "sha256sum yourname.exe"
+
+![8 Sha256 ryan exe](https://github.com/Lantern76/Hashing-Lab/assets/119342094/3b7ce4fd-8c8c-401b-982a-6c16fd71c872
+
+10. Type the following command to get the sha512sum of the yourname.exe file, which is actually nc.exe, "sha512sum yourname.txt"
+
+![10 Sha512 ryan exe](https://github.com/Lantern76/Hashing-Lab/assets/119342094/03375fff-47af-4156-9629-e59443e6a628)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
