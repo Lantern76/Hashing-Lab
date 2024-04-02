@@ -20,5 +20,69 @@ The Hashing Home Lab is designed to get individuals interested in the world of h
 ### Tools Used
 
 - HashCalc for creating and viewing multiple Hashes of data.
-- Command Line tools(such as md5sum in Linux) for creating Hashes of desired data samples.
+- Command Line tools(such as sigcheck) for creating Hashes of desired data samples.
+
+
+  ### Skills: Window System
+  
+1. Right Click on the start button and select Run
+   
+   ![1 Run](https://github.com/Lantern76/Hashing-Lab/assets/119342094/19702845-d91e-4b18-b9bc-837829a5c269)
+
+3. In the Run Box, type cmd and then click ok.
+   
+   ![2 cmd](https://github.com/Lantern76/Hashing-Lab/assets/119342094/39ac788d-06f4-4d57-9a0b-b4a3c0bc9a4e)
+
+5. Type the following command to redirect the output to a file named hostname.txt  "hostname > hostname.txt"
+   
+   ![1 Hostname txt](https://github.com/Lantern76/Hashing-Lab/assets/119342094/44594aba-7eae-44e4-9643-0636df027ae8)
+
+7. Type the following to display the computer name of your system (It should match your first name)
+   
+   ![1 Hostname](https://github.com/Lantern76/Hashing-Lab/assets/119342094/d3b804d2-cc08-4aba-a468-7ccf5d22a475)
+
+9. Type the following to lanch the sysinternals tools sigcheck "sigcheck". Click I agree.
+    
+    ![2 sigcheck](https://github.com/Lantern76/Hashing-Lab/assets/119342094/3c3129bc-81f8-4fdf-9fac-455be63c3812)
+
+11. Type the following to get the some of the more common hash values, "sigcheck -h hostname.txt". Click I agree.
+    
+    ![3  sigcheck hostname](https://github.com/Lantern76/Hashing-Lab/assets/119342094/fcca0f63-7ced-4e7d-b309-354ab8ea482b)
+
+13. Type the following to rename hostname.txt to yourname.txt, "ren hostname.txt yourname.txt". Use your first name.
+    
+    ![2 Rename file ](https://github.com/Lantern76/Hashing-Lab/assets/119342094/2b748685-b1bf-4806-88e8-cf95c22e8197)
+
+15. Type the following to get the some of the more common hash values, "sigcheck -h yourname.txt". Click I agree.
+     - Notice that even though the name of the file changed the hash did not. The hashing process looks at the data
+       within the file, not the name of the file or even the metadata of the file. Metadata is information like date created.
+       
+      ![3 Sigcheck ryan txt](https://github.com/Lantern76/Hashing-Lab/assets/119342094/1b237e13-71dc-4d87-9aaf-f7d5db78ef21)
+
+16. Click on Windows Explorer in the taskbar. Double click on This PC, Local Disk C:, Users, Administrator. Find
+   the yourname textfile. Right click on the file and go to properties. Then click on the Hashes tab. Compare
+   the MD5 and SHA-1 hashes from sigcheck to the MD5 and SHA1 hashes of Hashtab. They are the same.
+
+![4 Comparison](https://github.com/Lantern76/Hashing-Lab/assets/119342094/7e2eb3cb-d832-43fa-9ccd-cc816a903511)
+
+18. In the Start Search box, type HashCalc.
+    
+    ![HachCalc](https://github.com/Lantern76/Hashing-Lab/assets/119342094/82bfb982-6976-458e-9395-c7e427d48af6)
+
+20. After Hashcalc opens, click the button and browse to C:, Users, Administrator, yourname.txt. Select
+every available hash and then click the calculate button. The hashes should match from the other tools.
+    - Also, notice how some tools provide the hexadecimal characters (base 16) in lowercase which other tools provide them
+      in uppercase. This can be useful if you are in a Capture the Flag competition asking for a case specific answer.
+
+![5 Hashcalc](https://github.com/Lantern76/Hashing-Lab/assets/119342094/4bf43e1e-703b-488c-bf99-d6a949a27db4)
+
+
+
+### Tools Used
+
+### Skills: Linux System
+
+
+
+
   
