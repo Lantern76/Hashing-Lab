@@ -119,7 +119,7 @@ every available hash and then click the calculate button. The hashes should matc
 
 9. Type the following command to get the sha256sum of the yourname.exe file, which is actually nc.exe, "sha256sum yourname.exe"
 
-![8 Sha256 ryan exe](https://github.com/Lantern76/Hashing-Lab/assets/119342094/3b7ce4fd-8c8c-401b-982a-6c16fd71c872
+![8 Sha256 ryan exe](https://github.com/Lantern76/Hashing-Lab/assets/119342094/9703c286-e169-418f-aa1d-5e998a708477)
 
 10. Type the following command to get the sha512sum of the yourname.exe file, which is actually nc.exe, "sha512sum yourname.txt"
 
