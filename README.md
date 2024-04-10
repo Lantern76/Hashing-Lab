@@ -23,7 +23,7 @@ The Hashing Home Lab is designed to get individuals interested in the world of h
 - Command Line tools(such as sigcheck) for creating Hashes of desired data samples.
 
 
-  ### Skills: Window System
+  ### Part 1: Windows System
   
 1. Right Click on the start button and select Run
    
@@ -84,7 +84,7 @@ every available hash and then click the calculate button. The hashes should matc
     - The command line. or terminal, will play a vital role in the cybersecurity career field and I recomend those unfamiliar with it use their Linux VM to play around with and get used to some of the more common commands such as ls and cp.
 - Command Line tools including ls, md5sum, cp, sha1sum, sha256sum, sha512sum.
 
-### Skills: Linux System
+### Part 2: Linux System
 
 
 ### Warning this side of the Project will be done as a root user 
