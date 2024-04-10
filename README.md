@@ -7,7 +7,7 @@ An entry level lab for those interested in learning more about hashing on both W
 
 ## Objective
 
-The Hashing Home Lab is designed to get individuals interested in the world of hashing and gain a foundation to which build upon for more advanced activitys. Hashing is when a mathematical algorithm is applied to digital data. It sereves as both a way of hiding and validating data. It can often be seen when storing passwords or when preserving data for forensic purposes. In this lab we will only be looking at two of the most basic forms of hash, MD5 and Sha-1. Thos following along will find and create hashes for data within their virtual system.
+The Hashing Home Lab is designed to get individuals interested in the world of hashing and gain a foundation to which build upon for more advanced activitys. Hashing is when a mathematical algorithm is applied to digital data. It sereves as both a way of hiding and validating data. It can often be seen when storing passwords or when preserving data for forensic purposes. In this lab we will only be looking at two of the most basic forms of hash, MD5 and Sha-1. Those following along will find and create hashes for data within their virtual system.
 
 ### Skills Learned
 
